@@ -6,8 +6,8 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('METEOR@0.9.2');
-  api.use(['templating', 'check', 'jquery', 'underscore', 'velocityjs:velocityjs@1.2.1'
+  api.versionsFrom('3.0');
+  api.use(['templating', 'check', 'jquery@3.0.2', 'underscore', 'velocityjs:velocityjs@1.2.1'
       ], 'client');
 
   api.addFiles([
